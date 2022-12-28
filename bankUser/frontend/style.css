@@ -2,9 +2,26 @@ body {
     background-color: rgb(102, 198, 172);
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .container{
     margin: auto, 0;
     max-width: 1280px;
+}
+
+.user{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
 }
